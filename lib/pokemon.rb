@@ -4,13 +4,14 @@ class Pokemon
   @@all = []
   
   def initialize(pokemon)
-    @id = pokemon[id]
-    @name = pokemon[name]
-    @type = pokemon[type]
-    @db = pokemon[db]
+    @id = pokemon[:id]
+    @name = pokemon[:name]
+    @type = pokemon[:type]
+    @db = pokemon[:db]
   end
   
   def self.all
+    @@all
   end
   
   def self.save
