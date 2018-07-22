@@ -10,6 +10,9 @@ class Pokemon
     @db = pokemon[db]
   end
   
+  def self.all
+  end
+  
   def self.save
   
   end
