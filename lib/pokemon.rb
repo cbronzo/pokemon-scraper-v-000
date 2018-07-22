@@ -23,6 +23,9 @@ class Pokemon
   end
   
   def self.find(id, db)
+    name = 
+    id = 
+    db = 
   end
   
 end
