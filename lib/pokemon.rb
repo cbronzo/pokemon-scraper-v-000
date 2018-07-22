@@ -2,10 +2,10 @@ class Pokemon
   
   
 def initialize(pokemon)
-    @id = 
-    @name = name
-    @type = type
-    @db = db
+    @id = pokemon[id]
+    @name = pokemon[name]
+    @type = pokemon[type]
+    @db = pokemon[db]
   end
   
 end
