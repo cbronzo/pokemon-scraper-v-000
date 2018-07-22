@@ -9,6 +9,8 @@ class Pokemon
     @type = pokemon[:type]
     @hp = 60
     @db = pokemon[:db]
+    @@all << self
+    pokemon
   end
   
   def self.all
